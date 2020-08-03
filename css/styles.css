@@ -127,8 +127,21 @@ a {
 
 /* hero */
 .hero {
-  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  align-items: center;
   text-align: center;
+
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: rgba(47, 48, 58, 0.8);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../images/header-optimized.jpg');
 }
 .hero-title {
   margin-top: 0;
@@ -138,12 +151,13 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-color);
 }
 .button {
+  display: inline-flex;
+
   border: var(--accent-color);
   border-radius: 4px;
   padding: 10px 32px;
