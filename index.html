@@ -36,12 +36,20 @@
 
         <ul class="list flex-contacts">
           <li class="item-contacts">
-            <a href="mailto:info@devstudio.com" class="contacts"
-              >info@devstudio.com</a
-            >
+            <a href="mailto:info@devstudio.com" class="contacts">
+              <svg class="icon-contact" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="item-contacts">
-            <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="contacts">
+              <svg class="icon-contact" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -67,11 +75,9 @@
           <h2 class="visually-hidden">Основные особенности</h2>
           <ul class="list flex-features">
             <li class="feature-items">
-              <img
-                src="./images/antenna.svg"
-                alt="спутниковая антенна"
-                class="feature-svg"
-              />
+              <svg class="icon-feature">
+                <use href="./images/symbol-defs.svg#icon-antenna"></use>
+              </svg>
               <h3 class="features-title">Внимание к деталям</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -79,7 +85,9 @@
               </p>
             </li>
             <li class="feature-items">
-              <img src="./images/clock.svg" alt="часы" class="feature-svg" />
+              <svg class="icon-feature">
+                <use href="./images/symbol-defs.svg#icon-clock"></use>
+              </svg>
               <h3 class="features-title">Пунктуальность</h3>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -87,11 +95,9 @@
               </p>
             </li>
             <li class="feature-items">
-              <img
-                src="./images/diagram.svg"
-                alt="диаграмма"
-                class="feature-svg"
-              />
+              <svg class="icon-feature">
+                <use href="./images/symbol-defs.svg#icon-diagram"></use>
+              </svg>
               <h3 class="features-title">Планирование</h3>
               <p class="features-text">
                 Равным образом консультация с широким активом в значительной
@@ -99,11 +105,9 @@
               </p>
             </li>
             <li class="feature-items">
-              <img
-                src="./images/astronaut.svg"
-                alt="астронавт"
-                class="feature-svg"
-              />
+              <svg class="icon-feature">
+                <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+              </svg>
               <h3 class="features-title">Современные технологии</h3>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -119,37 +123,34 @@
           <h2 class="primary-title">Чем мы занимаемся</h2>
           <ul class="list flex-work">
             <li>
-              <a href="">
-                <img
-                  src="./images/notebook.jpg"
-                  alt="открытый ноутбук"
-                  width="370"
-                  height="294"
-                />
-              </a>
-              <h3 class="name-title">Десктопные приложения</h3>
+              <img
+                src="./images/notebook.jpg"
+                alt="открытый ноутбук"
+                width="370"
+                height="294"
+              />
+
+              <!-- <h3 class="name-title">Десктопные приложения</h3> -->
             </li>
             <li>
-              <a href="">
-                <img
-                  src="./images/smarphone.jpg"
-                  alt="смартфон"
-                  width="370"
-                  height="294"
-                />
-              </a>
-              <h3 class="name-title">Мобильные приложения</h3>
+              <img
+                src="./images/smarphone.jpg"
+                alt="смартфон"
+                width="370"
+                height="294"
+              />
+
+              <!-- <h3 class="name-title">Мобильные приложения</h3> -->
             </li>
             <li>
-              <a href="">
-                <img
-                  src="./images/computer.jpg"
-                  alt="монитор компьютера"
-                  width="370"
-                  height="294"
-                />
-              </a>
-              <h3 class="name-title">Дизайнерские решения</h3>
+              <img
+                src="./images/computer.jpg"
+                alt="планшет"
+                width="370"
+                height="294"
+              />
+
+              <!-- <h3 class="name-title">Дизайнерские решения</h3> -->
             </li>
           </ul>
         </div>
@@ -173,39 +174,55 @@
               <ul class="list social-link">
                 <li>
                   <a
+                    class="social"
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Инстаграм"
-                    ><img src="./images/instagram.svg" alt="логотип инстаграмм"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Твиттер"
-                    ><img src="./images/twitter.svg" alt="логотип твитер"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Фейсбук"
-                    ><img src="./images/facebook.svg" alt="логотип фейсбук"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Линкедин"
-                    ><img src="./images/linkedin.svg" alt="логотип линкидин"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -223,39 +240,55 @@
               <ul class="list social-link">
                 <li>
                   <a
+                    class="social"
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Инстаграм"
-                    ><img src="./images/instagram.svg" alt="логотип инстаграмм"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Твиттер"
-                    ><img src="./images/twitter.svg" alt="логотип твитер"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Фейсбук"
-                    ><img src="./images/facebook.svg" alt="логотип фейсбук"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Линкедин"
-                    ><img src="./images/linkedin.svg" alt="логотип линкидин"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -273,39 +306,55 @@
               <ul class="list social-link">
                 <li>
                   <a
+                    class="social"
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Инстаграм"
-                    ><img src="./images/instagram.svg" alt="логотип инстаграмм"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Твиттер"
-                    ><img src="./images/twitter.svg" alt="логотип твитер"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Фейсбук"
-                    ><img src="./images/facebook.svg" alt="логотип фейсбук"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Линкедин"
-                    ><img src="./images/linkedin.svg" alt="логотип линкидин"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -323,39 +372,55 @@
               <ul class="list social-link">
                 <li>
                   <a
+                    class="social"
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Инстаграм"
-                    ><img src="./images/instagram.svg" alt="логотип инстаграмм"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Твиттер"
-                    ><img src="./images/twitter.svg" alt="логотип твитер"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Фейсбук"
-                    ><img src="./images/facebook.svg" alt="логотип фейсбук"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
                   <a
+                    class="social"
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка Линкедин"
-                    ><img src="./images/linkedin.svg" alt="логотип линкидин"
-                  /></a>
+                  >
+                    <svg class="icon-link" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -368,34 +433,76 @@
           <h2 class="primary-title">Постоянные клиенты</h2>
           <ul class="list flex-clients">
             <li class="clients-item">
-              <a href="" target="_blank" rel=" noopener noreferrer">
-                <img src="./images/logo1.svg" alt="логотип компании"
-              /></a>
+              <a
+                href=""
+                target="_blank"
+                rel=" noopener noreferrer"
+                class="logo-link"
+              >
+                <svg class="client-logo" width="44" height="49">
+                  <use href="./images/symbol-defs.svg#icon-logo1"></use>
+                </svg>
+              </a>
             </li>
             <li class="clients-item">
-              <a href="" target="_blank" rel=" noopener noreferrer"
-                ><img src="./images/logo2.svg" alt="логотип компании"
-              /></a>
+              <a
+                href=""
+                target="_blank"
+                rel=" noopener noreferrer"
+                class="logo-link"
+              >
+                <svg class="client-logo" width="40" height="52">
+                  <use href="./images/symbol-defs.svg#icon-logo2"></use>
+                </svg>
+              </a>
             </li>
             <li class="clients-item">
-              <a href="" target="_blank" rel=" noopener noreferrer"
-                ><img src="./images/logo3.svg" alt="логотип компании"
-              /></a>
+              <a
+                href=""
+                target="_blank"
+                rel=" noopener noreferrer"
+                class="logo-link"
+              >
+                <svg class="client-logo" width="41" height="43">
+                  <use href="./images/symbol-defs.svg#icon-logo3"></use>
+                </svg>
+              </a>
             </li>
             <li class="clients-item">
-              <a href="" target="_blank" rel=" noopener noreferrer"
-                ><img src="./images/logo4.svg" alt="логотип компании"
-              /></a>
+              <a
+                href=""
+                target="_blank"
+                rel=" noopener noreferrer"
+                class="logo-link"
+              >
+                <svg class="client-logo" width="80" height="42">
+                  <use href="./images/symbol-defs.svg#icon-logo4"></use>
+                </svg>
+              </a>
             </li>
             <li class="clients-item">
-              <a href="" target="_blank" rel=" noopener noreferrer"
-                ><img src="./images/logo5.svg" alt="логотип компании"
-              /></a>
+              <a
+                href=""
+                target="_blank"
+                rel=" noopener noreferrer"
+                class="logo-link"
+              >
+                <svg class="client-logo" width="59" height="47">
+                  <use href="./images/symbol-defs.svg#icon-logo5"></use>
+                </svg>
+              </a>
             </li>
             <li class="clients-item">
-              <a href="" target="_blank" rel=" noopener noreferrer"
-                ><img src="./images/logo6.svg" alt=" логотип компании"
-              /></a>
+              <a
+                href=""
+                target="_blank"
+                rel=" noopener noreferrer"
+                class="logo-link"
+              >
+                <svg class="client-logo" width="89" height="45">
+                  <use href="./images/symbol-defs.svg#icon-logo6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -445,10 +552,11 @@
                 rel="noopener noreferrer"
                 aria-label="ссылка Инстаграм"
                 class="item-link"
-                ><img
-                  src="./images/footer-link/instagram.svg"
-                  alt="логотип инстаграмм"
-              /></a>
+              >
+                <svg class="icon-link-footer" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-instagram1"></use>
+                </svg>
+              </a>
             </li>
             <li class="link-footer">
               <a
@@ -457,10 +565,11 @@
                 rel="noopener noreferrer"
                 aria-label="ссылка Твиттер"
                 class="item-link"
-                ><img
-                  src="./images/footer-link/twitter.svg"
-                  alt="логотип твитер"
-              /></a>
+              >
+                <svg class="icon-link-footer" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-t"></use>
+                </svg>
+              </a>
             </li>
             <li class="link-footer">
               <a
@@ -469,10 +578,7 @@
                 rel="noopener noreferrer"
                 aria-label="ссылка Фейсбук"
                 class="item-link"
-                ><img
-                  src="./images/footer-link/facebook.svg"
-                  alt="логотип фейсбук"
-              /></a>
+              ></a>
             </li>
             <li class="link-footer">
               <a
@@ -481,10 +587,7 @@
                 rel="noopener noreferrer"
                 aria-label="ссылка Линкедин"
                 class="item-link"
-                ><img
-                  src="./images/footer-link/linkedin.svg"
-                  alt="логотип линкидин"
-              /></a>
+              ></a>
             </li>
           </ul>
         </div>
