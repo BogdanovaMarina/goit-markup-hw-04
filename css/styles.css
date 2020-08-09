@@ -489,6 +489,9 @@ a {
   border-radius: 50%;
   color: var(--third-color);
 }
+.item-link:hover {
+  background-color: var(--accent-color);
+}
 
 .icon-link-footer:hover,
 .icon-link-footer:focus {
